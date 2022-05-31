@@ -1,7 +1,7 @@
 // blog scss
 .blog {
   h3 {
-    color: #F07F0F;
+    color: #0D4752;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
@@ -11,7 +11,7 @@
       content: '';
       width: 60px;
       height: 2px;
-      background: #F07F0F;
+      background: #0D4752;
       display: block;
       margin: 7px 0;
     }
@@ -57,7 +57,7 @@
 
     @media (min-width: 579px) {
       &:hover {
-        background-color: #062248;
+        background-color: #0D4752;
 
         & > div h4 {
           color: #FFF;

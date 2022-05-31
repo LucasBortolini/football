@@ -1,7 +1,7 @@
 .fourth {
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 4px solid #F07F0F;
+  border-top: 4px solid #FFCF00;
   background-image: url("images/indique-mobile.jpg");
 
   @media (min-width: 959px) {
@@ -95,8 +95,8 @@
 }
 
 input.form-control.btn.indicate-btn {
-  background-color: #F07F0F;
-  color: #F7F7F7;
+  background-color: #FFCF00;
+  color: #FFF;
   height: 30px;
   font-size: 18px;
   padding: 4px 12px 6px;
