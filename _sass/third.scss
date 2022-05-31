@@ -9,7 +9,7 @@ section.third {
   }
 
   p {
-    color: #062248;
+    color: #FFF;
     font-weight: bold;
     font-size: 13px;
     text-align: right;
@@ -127,48 +127,48 @@ section.third {
 .css-typing-third p:nth-child(1) {
   width: 10.8em;
   opacity: 0;
-  -webkit-animation: type .3s steps(40, end);
-  animation: type .3s steps(40, end);
-  -webkit-animation-delay: 2.7s;
-  animation-delay: 2.7s;
+  -webkit-animation: type .2s steps(40, end);
+  animation: type .2s steps(40, end);
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
   }
 }
 
 .css-typing-third p:nth-child(2) {
   width: 10.8em;
   opacity: 0;
-  -webkit-animation: type2 .3s steps(40, end);
-  animation: type2 .3s steps(40, end);
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation: type2 .2s steps(40, end);
+  animation: type2 .2s steps(40, end);
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 4.3s;
-    animation-delay: 4.3s;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
   }
 }
 
 .css-typing-third p:nth-child(3) {
   width: 10.8em;
   opacity: 0;
-  -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 3.3s;
-  animation-delay: 3.3s;
+  -webkit-animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 4.6s;
-    animation-delay: 4.6s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
   }
 }
 
@@ -268,32 +268,32 @@ section.third {
 .css-typing-third-2 p:nth-child(1) {
   width: 10.8em;
   opacity: 0;
-  -webkit-animation: type .3s steps(40, end);
-  animation: type .3s steps(40, end);
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s;
+  -webkit-animation: type .2s steps(40, end);
+  animation: type .2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 4.9s;
-    animation-delay: 4.9s;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
   }
 }
 
 .css-typing-third-2 p:nth-child(2) {
   width: 10.8em;
   opacity: 0;
-  -webkit-animation: type2 .3s steps(40, end);
-  animation: type2 .3s steps(40, end);
-  -webkit-animation-delay: 3.9s;
-  animation-delay: 3.9s;
+  -webkit-animation: type2 .2s steps(40, end);
+  animation: type2 .2s steps(40, end);
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 2.2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 5.2s;
-    animation-delay: 5.2s;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
   }
 }
 

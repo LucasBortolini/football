@@ -9,42 +9,40 @@ section.first {
   }
 
   p {
-    text-shadow: 0.4px 1px #f7f7f7;
+    text-shadow: 0.4px 1px #FFF;
   }
 
   .text-first {
-    color: #2F2E2A;
+    color: #000;
     font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 125px;
-    margin-bottom: 0;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 14px;
+    padding-bottom: 93px;
 
     @media (min-width: 383px) {
-      font-size: 16px;
-      padding-top: 132px;
+      font-size: 15px;
+      padding-bottom: 110px;
     }
 
     @media (min-width: 413px) {
-      font-size: 18px;
-      padding-top: 142px;
+      font-size: 16px;
+      padding-bottom: 121px;
     }
 
     @media (min-width: 427px) {
-      font-size: 18px;
-      padding-top: 148px;
+      font-size: 17px;
+      padding-bottom: 122px;
     }
 
     @media (min-width: 959px) {
-      font-weight: bold;
-      font-size: 14px;
-      padding-top: 114px;
+      font-size: 13px;
+      padding-bottom: 0;
+      padding-top: 4px;
     }
 
     @media (min-width: 1079px) {
-      font-weight: bold;
-      font-size: 14px;
-      padding-top: 114px;
+      font-size: 13px;
     }
   }
 }
@@ -54,48 +52,84 @@ section.first {
   overflow: hidden;
 }
 .css-typing-first p:nth-child(1) {
-  width: 22em;
-  -webkit-animation: type .3s steps(40, end);
-  animation: type .3s steps(40, end);
+  width: 24.8em;
+  -webkit-animation: type .2s steps(40, end);
+  animation: type .2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
+    width: 23.2em;
     opacity: 0;
-    -webkit-animation-delay: 1.3s;
-    animation-delay: 1.3s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+
+  @media (min-width: 1079px) {
+    width: 24em;
   }
 }
 
 .css-typing-first p:nth-child(2) {
-  width: 22em;
+  width: 24.8em;
   opacity: 0;
-  -webkit-animation: type2 .3s steps(40, end);
-  animation: type2 .3s steps(40, end);
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation: type2 .2s steps(40, end);
+  animation: type2 .2s steps(40, end);
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 1.6s;
-    animation-delay: 1.6s;
+    width: 23.2em;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+  }
+
+  @media (min-width: 1079px) {
+    width: 24em;
   }
 }
 
 .css-typing-first p:nth-child(3) {
-  width: 22em;
+  width: 24.8em;
   opacity: 0;
-  -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    width: 23.2em;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+  }
+
+  @media (min-width: 1079px) {
+    width: 24em;
+  }
+}
+
+.css-typing-first p:nth-child(4) {
+  width: 24.8em;
+  opacity: 0;
+  -webkit-animation: type4 .2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type4 .2s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 1.9s;
-    animation-delay: 1.9s;
+    width: 23.2em;
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+  }
+
+  @media (min-width: 1079px) {
+    width: 24em;
   }
 }
 
@@ -164,6 +198,30 @@ section.first {
 }
 
 @-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
   0% {
     width: 0;
   }
