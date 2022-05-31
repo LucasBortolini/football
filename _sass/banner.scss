@@ -1,0 +1,44 @@
+// banner index
+.banner-index {
+	h1{
+		text-shadow: 0.4px 1px #000;
+		position: absolute;
+		max-width: 676px;
+		font-weight: bold;
+		font-size: 24px;
+		color: #FFF;
+		margin-top: 290px;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 676px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+}
+
+.line-1{
+	position: relative;
+	font-size: 180%;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);    
+}
+
+.message {
+  background-image: url("images/index-banner.png");
+  color: #333;
+  display: block;
+  font-weight: 900;
+  position: absolute;
+  padding-left: 0.5rem;
+  animation: openclose 8s ease-in-out;
+}
+
+@keyframes openclose {
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 676px;
+  }
+}

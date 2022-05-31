@@ -1,0 +1,317 @@
+// animação tomando água scss
+section.second {
+  background-image: url('images/banner-index2.jpg');
+  background-size: cover;
+  height: 100%;
+
+  @media (min-width: 1079px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    text-shadow: 0.4px 2px #FFF;
+  }
+
+  .text-second {
+    color: #2F2E2A;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    padding-top: 34px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    @media (min-width: 383px) {
+      font-size: 16px;
+    }
+
+    @media (min-width: 413px) {
+      font-size: 18px;
+      padding-bottom: 33px;
+      padding-top: 36px;
+    }
+
+    @media (min-width: 427px) {
+      padding-bottom: 38px;
+      padding-top: 39px;
+    }
+
+    @media (min-width: 959px) {
+      font-size: 14px;
+      padding-bottom: 17px;
+      padding-top: 15px;
+    }
+
+    @media (min-width: 1079px) {
+      font-size: 14px;
+      padding-bottom: 31px;
+      padding-top: 25px;
+    }
+  }
+}
+
+.css-typing-second p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing-second p:nth-child(1) {
+  width: 12.2em;
+  opacity: 0;
+  -webkit-animation: type .3s steps(40, end);
+  animation: type .3s steps(40, end);
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+  }
+}
+
+.css-typing-second p:nth-child(2) {
+  width: 13.9em;
+  opacity: 0;
+  -webkit-animation: type2 .3s steps(40, end);
+  animation: type2 .3s steps(40, end);
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+  }
+}
+
+.css-typing-second p:nth-child(3) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+  }
+}
+
+.css-typing-second p:nth-child(4) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type4 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type4 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+  }
+}
+
+.css-typing-second p:nth-child(5) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type5 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type5 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+  }
+}
+
+.css-typing-second p:nth-child(6) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type6 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type6 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.7s;
+    animation-delay: 3.7s;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
